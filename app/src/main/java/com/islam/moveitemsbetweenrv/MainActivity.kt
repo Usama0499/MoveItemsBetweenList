@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity(), Listener {
         topList.add("B")
         topList.add("C")
         topList.add("D")
-        topList.add("E")
 
         val topListAdapter = ListAdapter(topList, this)
         binding.rvTop.setAdapter(topListAdapter)
@@ -52,11 +51,10 @@ class MainActivity : AppCompatActivity(), Listener {
         )
 
         val bottomList: MutableList<String> = ArrayList()
-        bottomList.add("F")
-        bottomList.add("G")
-        bottomList.add("H")
-        bottomList.add("I")
-        bottomList.add("J")
+        bottomList.add("1")
+        bottomList.add("2")
+        bottomList.add("3")
+        bottomList.add("4")
 
         val bottomListAdapter = ListAdapter(bottomList, this)
         binding.rvBottom.setAdapter(bottomListAdapter)
